@@ -1,0 +1,12 @@
+version: "3.0"
+services:
+  vue-hapi-rollup-docker-sample:
+    container_name: "vue-hapi-rollup-docker-sample"
+    build:
+      context: ./
+      dockerfile: dev.Dockerfile
+    ports:
+      - "80:8080"
+      - "7000:7000"
+    volumes:
+      - ./:/www
