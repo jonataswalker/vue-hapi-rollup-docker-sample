@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/jonataswalker/vue-hapi-rollup-docker-sample#readme",
   "dependencies": {
-    "@hapi/hapi": "^18.3.1",
+    "@hapi/hapi": "^18.4.1",
     "@hapi/inert": "^5.2.1",
-    "@hapi/joi": "^15.1.0",
+    "@hapi/joi": "^15.1.1",
     "@mdi/font": "^3.7.95",
     "axios": "^0.19.0",
     "vue": "^2.6.10",
